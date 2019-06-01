@@ -1,0 +1,6 @@
+{
+    "openhab_url": "<URL to openHAB panel without slash at the end>",
+    "openhab_item_name": "<RGB strip's item name in openHAB panel>",
+    "openhab_username": "<Username to openHAB panel, if auth is sets>",
+    "openhab_password": "<Password to openHAB panel, if auth is sets>"
+}
