@@ -1,8 +1,8 @@
 from PIL import Image
 import mss
+import colorsys
 import json
 import time
-import colorsys
 import requests
 
 # Program start information
@@ -19,8 +19,10 @@ try:
                 json_data = json.load(json_file)
                 with mss.mss() as sct:
                     while True:
-                        # Get average colour from main screen
-                        screen_raw = sct.grab(sct.monitors[1])
+                        start_time = time.time()
+
+                        # Get average colour from screen
+                        screen_raw = sct.grab(sct.monitors[2])
                         screen_img = Image.frombytes('RGB', screen_raw.size, screen_raw.bgra, 'raw', 'BGRX')
                         avg_colour = screen_img.resize((1, 1), Image.ANTIALIAS).getpixel((0, 0))
 
@@ -49,6 +51,11 @@ try:
                                 'Check username and password in config file.\033[0m')
                             time.sleep(1)
                             break
+
+                        # Delay
+                        left_time = 0.1-(time.time()-start_time)
+                        if left_time > 0:
+                            time.sleep(left_time)
 
         # Server SSL error
         except requests.exceptions.SSLError:
