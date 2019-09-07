@@ -40,8 +40,8 @@ python3 ambilight-screen.py
 Project is: **finished**
 
 ## Pictures
-![Running program](https://raw.githubusercontent.com/msdos400/arduino-smart-home-gateway/assets/images/running.jpg)
-![Effect](https://raw.githubusercontent.com/msdos400/arduino-smart-home-gateway/assets/images/effect.gif)
+![Running program](https://raw.githubusercontent.com/msdos400/openhab2-ambilight-screen/assets/images/running.jpg)
+![Effect](https://raw.githubusercontent.com/msdos400/openhab2-ambilight-screen/assets/images/effect.gif)
 
 ## Author
 Copyright ⓒ 2019 Dawid Maliszewski (msdos400) <msdos@strona.pl>
