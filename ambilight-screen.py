@@ -1,3 +1,14 @@
+'''
+Copyright ⓒ 2019 Dawid Maliszewski (msdos400) <msdos@strona.pl>
+
+openHAB2 Ambilight Screen v0.1.0
+A program that calculates average colour from the screen and sends it to the RGB strip connected to the openHAB server to do ambilight backlight.
+
+This file is part of openhab2-ambilight-screen (https://github.com/msdos400/openhab2-ambilight-screen)
+
+GNU General Public License v3 (GPL-3)
+'''
+
 # Import libraries
 from PIL import Image
 import mss
