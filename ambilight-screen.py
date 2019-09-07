@@ -22,7 +22,7 @@ try:
                         start_time = time.time()
 
                         # Get average colour from screen
-                        screen_raw = sct.grab(sct.monitors[2])
+                        screen_raw = sct.grab(sct.monitors[int(json_data['screen_number'])])
                         screen_img = Image.frombytes('RGB', screen_raw.size, screen_raw.bgra, 'raw', 'BGRX')
                         avg_colour = screen_img.resize((1, 1), Image.ANTIALIAS).getpixel((0, 0))
 
