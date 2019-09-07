@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/github/license/thedavesky/openhab2-ambilight-screen.svg?style=flat-square)
 > A program that calculates average colour from the screen and sends it to the RGB strip connected to the openHAB server to do ambilight backlight.
 
-This program written in Python 3 can do this same thing as Philips Ambilight, but using RGB strip connected to openHAB server. It's constantly calculates average color from one screen of computer and sends it to server. It uses most efficiency libraries to do screenshots and calculates, so its speed is about 10 FPS at 1080p resolution. It's multiplatform, so Windows, MacOS and Linux are supported.
+This program written in Python 3 can do this same thing as Philips Ambilight, but using computer screen and RGB strip connected to openHAB server. It's constantly calculates average colour from one screen of computer and sends it to server. It uses most efficient libraries to do screenshots and calculates, so its speed is about 10 FPS at 1080p resolution. It's multiplatform, so Windows, MacOS and Linux are supported.
 
 ## Installation
 Install libraries to python environment by running:
@@ -40,8 +40,16 @@ python3 ambilight-screen.py
 Project is: **finished**
 
 ## Pictures
-![Running program](https://raw.githubusercontent.com/thedavesky/openhab2-ambilight-screen/assets/images/running.jpg)
-![Effect](https://raw.githubusercontent.com/thedavesky/openhab2-ambilight-screen/assets/images/effect.gif)
+<div align="center">
+    <a href="https://raw.githubusercontent.com/thedavesky/openhab2-ambilight-screen/assets/images/running.jpg">
+        <img src="https://raw.githubusercontent.com/thedavesky/openhab2-ambilight-screen/assets/images/running.jpg" alt="Running program">
+    </a>
+</div>
+<div align="center">
+    <a href="https://raw.githubusercontent.com/thedavesky/openhab2-ambilight-screen/assets/images/effect.gif">
+        <img src="https://raw.githubusercontent.com/thedavesky/openhab2-ambilight-screen/assets/images/effect.gif" alt="Effect">
+    </a>
+</div>
 
 ## Author
 Copyright ⓒ 2019 Dawid Maliszewski (thedavesky) <dawid@thedavesky.com>
