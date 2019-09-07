@@ -40,8 +40,8 @@ python3 ambilight-screen.py
 Project is: **finished**
 
 ## Pictures
-![Running program](https://raw.githubusercontent.com/thedavesky/arduino-smart-home-gateway/assets/images/running.jpg)
-![Effect](https://raw.githubusercontent.com/thedavesky/arduino-smart-home-gateway/assets/images/effect.gif)
+![Running program](https://raw.githubusercontent.com/thedavesky/openhab2-ambilight-screen/assets/images/running.jpg)
+![Effect](https://raw.githubusercontent.com/thedavesky/openhab2-ambilight-screen/assets/images/effect.gif)
 
 ## Author
 Copyright ⓒ 2019 Dawid Maliszewski (thedavesky) <dawid@thedavesky.com>
