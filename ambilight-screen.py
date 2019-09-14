@@ -1,4 +1,4 @@
-'''
+"""
 Copyright ⓒ 2019 Dawid Maliszewski (thedavesky) <dawid@thedavesky.com>
 
 openHAB2 Ambilight Screen v0.1.0
@@ -7,7 +7,7 @@ A program that calculates average colour from the screen and sends it to the RGB
 This file is part of openhab2-ambilight-screen (https://github.com/thedavesky/openhab2-ambilight-screen)
 
 GNU General Public License v3 (GPL-3)
-'''
+"""
 
 # Import libraries
 from PIL import Image
@@ -93,18 +93,17 @@ except FileNotFoundError:
           time.strftime('%H:%M:%S') +
           '] Stopped program.\033[0m')
 
-# JSON data not completely error
+# JSON openHAB data not completely error
 except KeyError:
     print('\033[91m\033[1m[' + time.strftime('%H:%M:%S') +
           '] Data in config.json file isn\'t completely. Correct them.\033[0m\n\033[94m\033[1m[' +
           time.strftime('%H:%M:%S') +
           '] Stopped program.\033[0m')
 
-# JSON broken structure error
-except json.decoder.JSONDecodeError:
-    print('\033[91m\033[1m[' +
-          time.strftime('%H:%M:%S') +
-          '] Structure of config.json file is broken. Correct it.\033[0m\n\033[94m\033[1m[' +
+# JSON screen number data not completely error
+except ValueError:
+    print('\033[91m\033[1m[' + time.strftime('%H:%M:%S') +
+          '] Data in config.json file isn\'t completely. Correct them.\033[0m\n\033[94m\033[1m[' +
           time.strftime('%H:%M:%S') +
           '] Stopped program.\033[0m')
 
