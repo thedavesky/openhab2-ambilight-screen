@@ -1,7 +1,7 @@
 """
-Copyright ⓒ 2019 Dawid Maliszewski (thedavesky) <dawid@thedavesky.com>
+Copyright ⓒ 2019-2020 Dawid Maliszewski (thedavesky) <dawid@thedavesky.com>
 
-openHAB2 Ambilight Screen v0.1.1
+openHAB2 Ambilight Screen v0.1.2
 A program that calculates average colour from the screen and sends it to the RGB strip connected to the openHAB server to do ambilight backlight.
 
 This file is part of openhab2-ambilight-screen (https://github.com/thedavesky/openhab2-ambilight-screen)
@@ -18,7 +18,7 @@ import time
 import requests
 
 # Program start information
-print('\033[95m\033[1m--- openHAB2 Ambilight Screen v0.1.1 ---\033[0m\n\033[94m\033[1m[' +
+print('\033[95m\033[1m--- openHAB2 Ambilight Screen v0.1.2 ---\033[0m\n\033[94m\033[1m[' +
       time.strftime('%H:%M:%S') +
       '] Started program.\033[0m')
 
