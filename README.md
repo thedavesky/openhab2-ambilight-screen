@@ -41,8 +41,8 @@ Project is: **finished**
 
 ## Pictures
 <div align="center">
-    <a href="https://raw.githubusercontent.com/thedavesky/openhab2-ambilight-screen/assets/images/running.jpg">
-        <img src="https://raw.githubusercontent.com/thedavesky/openhab2-ambilight-screen/assets/images/running.jpg" alt="Running program">
+    <a href="https://raw.githubusercontent.com/thedavesky/openhab2-ambilight-screen/assets/images/running_program.jpg">
+        <img src="https://raw.githubusercontent.com/thedavesky/openhab2-ambilight-screen/assets/images/running_program.jpg" alt="Running program">
     </a>
 </div>
 <div align="center">
@@ -52,7 +52,7 @@ Project is: **finished**
 </div>
 
 ## Author
-Copyright ⓒ 2019 Dawid Maliszewski (thedavesky) <dawid@thedavesky.com>
+Copyright ⓒ 2019-2020 Dawid Maliszewski (thedavesky) <dawid@thedavesky.com>
 
 ## License
 This project is licensed under the **GNU General Public License v3.0** - see the [LICENSE](https://github.com/thedavesky/openhab2-ambilight-screen/blob/master/LICENSE) file for details.
